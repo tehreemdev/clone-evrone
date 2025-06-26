@@ -16,22 +16,7 @@ A fully responsive clone of the Enrove template, built with HTML, CSS, and JavaS
 - JavaScript
 ## 📁 Folder Structure
 
-enrove-clone/
-│
-├── assessments/           
-│   ├── evrone logo.png
-│   ├── evronelogo.png
-│   └── isolated-4609755...
-│
-├── index.html
-├── index.js
-├── laptop.css
-├── laptop_l.css
-├── mobile_s.css
-├── tablet.css
-└── website.css
-├── README.md  
-
+<pre> ```markdown 📁 Folder Structure enrove-clone/ │ ├── assessments/ │ ├── evrone-logo.png │ ├── evronelogo.png │ └── isolated-4609755... │ ├── index.html ├── index.js ├── laptop.css ├── laptop_l.css ├── mobile_s.css ├── tablet.css ├── website.css └── README.md ``` </pre>
 ## 👩‍💻 Author
 
 **Tehreem Khalid**  
