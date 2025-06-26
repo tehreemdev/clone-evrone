@@ -31,3 +31,9 @@ enrove-clone/
 ├── tablet.css
 └── website.css
 ├── README.md  
+
+## 👩‍💻 Author
+
+**Tehreem Khalid**  
+Frontend Web Developer | Passionate about responsive UI/UX ✨  
+[LinkedIn](https://www.linkedin.com/in/tehreemkhalid/)
