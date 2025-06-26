@@ -21,14 +21,13 @@ enrove-clone/
 │   └── evronelogo.png
 │   └── evrone logo.png
 │   └── isolated-4609755_1920.png
-│   └── ...
-├── index.html               # Main HTML file (homepage)
-├── index.js                 # JavaScript file for interactions
-├── laptop.css               # Desktop/laptop-specific styles
-├── laptop_l.css             # Large desktop styles
-├── mobile_s.css             # Mobile styles
-├── tablet.css               # Tablet-specific styles
-├── website.css              # General styles (base layout)
+├── index.html              
+├── index.js                 
+├── laptop.css               
+├── laptop_l.css            
+├── mobile_s.css            
+├── tablet.css              
+├── website.css              
 └── README.md
 
 ## 👩‍💻 Author
