@@ -1,0 +1,90 @@
+@media only screen and (max-width: 786px) and (min-width: 375px) {
+  .inputForm {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .messageInput {
+    grid-column: 1/2;
+  }
+  .container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .moreoptions {
+    font-size: large;
+    margin-top: 30px;
+  }
+  .heading {
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  .define {
+    font-size: large;
+  }
+  .date {
+    margin-top: 30px;
+  }
+  .firstImg {
+    margin-top: 25px;
+  }
+  .content {
+    padding-left: 30px;
+    font-size: larger;
+    font-weight: medium;
+  }
+  .list {
+    font-size: large;
+  }
+  .reason {
+    padding-left: 20px;
+    font-size: large;
+    margin-top: 50px;
+  }
+  .layout {
+    margin-top: 30px;
+    font-size: large;
+  }
+  .firstImg {
+    height: 70vh;
+  }
+  .lastImage {
+    height: 70vh;
+  }
+  .challenge {
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .founder {
+    padding-left: 30px;
+    font-size: large;
+    margin-top: 30px;
+  }
+  .sol {
+    font-size: larger;
+    font-weight: bold;
+  }
+  .solution {
+    padding-left: 30px;
+    font-size: large;
+  }
+  .footerItem {
+    grid-template-columns: repeat(2, 1fr);
+    font-size: large;
+  }
+
+  .footerIcons {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: medium;
+    margin-top: 30px;
+    gap: 30px 30px;
+  }
+}
+
+@media only screen and (max-width: 786px) and (min-width: 768px) {
+  .footerItem {
+    grid-template-columns: repeat(3, 1fr);
+    font-size: large;
+  }
+}

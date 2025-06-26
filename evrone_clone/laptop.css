@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1024px) {
+  .items {
+    display: none;
+  }
+  .cross {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sideBarIcons {
+    display: none;
+  }
+}

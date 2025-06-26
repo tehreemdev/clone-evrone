@@ -1,0 +1,337 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.sideBar {
+  height: 100vh;
+  width: 250px;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  display: none;
+}
+.evroneLogo {
+  padding: 20px 90px;
+  height: 60px;
+  width: 70px;
+  border-radius: 2px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+.barBtn {
+  padding-left: 60px;
+  margin-top: 45px;
+}
+.sideBarItems {
+  display: flex;
+  color: black;
+  font-size: 20px;
+  margin: 0px 0px 20px;
+  font-family: Suisse Int, Helvetica, Arial, sans-serif;
+  padding-left: 20px;
+}
+
+.container {
+  font-family: Suisse Int, Helvetica, Arial, sans-serif;
+  padding: 0px 100px;
+}
+.navigationSection {
+  display: flex;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: sticky;
+  top: 0px;
+
+  justify-content: space-between;
+}
+.name {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.item {
+  font-size: 20px;
+  margin-left: 20px;
+  color: black;
+}
+.primarybtn {
+  border: transparent;
+  color: white;
+  background-color: #fc5434;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.moreoptions {
+  font-size: 23px;
+  margin-top: 60px;
+  font-weight: lighter;
+}
+.heading {
+  margin-top: 60px;
+  font-size: 60px;
+  line-height: 1.25;
+  font-weight: lighter;
+}
+.define {
+  margin-top: 20px;
+  font-size: 22px;
+  line-height: 1.5;
+}
+.date {
+  color: #999;
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+}
+.firstImg {
+  margin-top: 70px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 7px;
+  height: 90vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+.content {
+  margin-top: 60px;
+  padding-left: 22%;
+  font-size: 25px;
+  line-height: 1.25;
+}
+.list {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 1.25;
+}
+.reason {
+  margin-top: 90px;
+  padding: 0% 20%;
+  line-height: 1.5;
+  font-size: 22px;
+  font-weight: 300;
+}
+.layout {
+  margin-top: 45px;
+  font-size: 22px;
+}
+.challenge {
+  font-size: 40px;
+  font-weight: lighter;
+  margin-top: 70px;
+}
+.founder {
+  margin-top: 30px;
+  font-weight: lighter;
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 220;
+  padding: 0% 20%;
+}
+.imagesSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 70px;
+  gap: 15px;
+}
+
+.challengeImages {
+  border-radius: 15px;
+  width: 100%;
+}
+.solution {
+  padding-left: 10%;
+}
+.sol {
+  margin-top: 50px;
+  font-size: 45px;
+  font-weight: lighter;
+}
+.para1 {
+  margin-top: 40px;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-right: 22%;
+}
+.para2 {
+  margin-top: 40px;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-right: 22%;
+}
+.methods {
+  padding: 0% 20%;
+  margin-top: 40px;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.capabilities {
+  padding: 0% 20%;
+  margin-top: 40px;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.fact {
+  padding: 0% 20%;
+  margin-top: 40px;
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.lastImage {
+  margin-top: 70px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 7px;
+  height: 90vh;
+  width: 100%;
+  overflow: hidden;
+}
+.review {
+  padding: 0% 20%;
+  margin-top: 210px;
+  line-height: 1.5;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+.author {
+  display: flex;
+  justify-content: center;
+  padding-right: 35%;
+}
+.directorImage {
+  border-radius: 100%;
+  height: 70px;
+  width: 70px;
+  background-color: black;
+}
+.authorName {
+  font-size: larger;
+  margin-left: 20px;
+}
+.authorPost {
+  line-height: 30px;
+  margin-left: 20px;
+  font-size: larger;
+  color: #999;
+}
+.tags {
+  padding: 0% 18%;
+  margin-top: 12%;
+  font-size: 20px;
+}
+.tName {
+  color: #999;
+  line-height: 2;
+  margin-left: 15px;
+  border-bottom: 1px solid #999;
+  justify-content: space-between;
+}
+.tName:hover {
+  color: black;
+  border-bottom: 1px solid black;
+}
+.information {
+  font-size: 55px;
+  margin-top: 90px;
+  padding-left: 25px;
+}
+.contactDetails {
+  margin-top: 55px;
+  padding-left: 25px;
+}
+.detail {
+  color: black;
+  margin-top: 25px;
+  border-bottom: 1px solid #999;
+  font-size: larger;
+}
+.detail:hover {
+  border-bottom: 1px solid black;
+}
+.inputForm {
+  /* margin-top: 30px; */
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px 10px;
+}
+.inForm {
+  background-color: #f0f0f0;
+  font-size: 20px;
+  border: transparent;
+  border-radius: 3px;
+  padding: 15px 25px;
+}
+.messageInput {
+  grid-column: 1/3;
+}
+
+.formSection {
+  background-color: #fff;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 40px 0px;
+  padding: 0px 25px;
+}
+
+.inputFile {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondarybtn {
+  background-color: #fc5434;
+  border: transparent;
+  color: white;
+  font-size: 24px;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-bottom: 40px;
+}
+.footer {
+  background-color: black;
+  padding: 80px 0px;
+}
+.footerItem {
+  color: #f0f0f0;
+  font-size: 25px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+}
+.sectionItem {
+  color: #999;
+}
+.linkSection {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  gap: 10px;
+}
+.linkSection a {
+  margin: 0px;
+}
+
+.item {
+  color: #999;
+}
+.footerIcons {
+  color: #999;
+  font-size: 30px;
+  margin-top: 80px;
+  display: flex;
+  gap: 50px;
+}
